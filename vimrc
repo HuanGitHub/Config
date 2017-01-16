@@ -71,6 +71,8 @@ colorscheme Tomorrow-Night-Eighties
 cnoremap <c-p> <up>
 cnoremap <c-n> <down>
 
-imap <c-o> <END>
+imap <c-o><c-o> <END>;<c-j>
+imap <c-o> <END>;<CR>
 set nocompatible
 filetype plugin on
+imap <c-g> <END><CR>
